@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Education form</title>
+<style type="text/css">
+*{
+color: blue;
+background-color:#f4f4f7;
+
+font-family: fantasy;
+}
+</style>
+</head>
+<body align="center" class="form-control text-primary">
+<h1>Form for further process</h1>
+<form action="addmission" method="post" onsubmit="return a();">
+<marquee>All fields are mandatory to fill</marquee><br><br>
+<label>Name</label>
+<input type="text" placeholder="Name" name="n" id='n'><br><br>
+<label>Email address</label>
+<input type="email" placeholder="Email" name="e" id='e'><br><br>
+<label>Mobile number</label>
+<input type="number" placeholder="Mobile Number" name="mo" id='mo'><br><br>
+
+<label>Date of Birth</label>
+<input type="date" placeholder="Dob" name="d" id='d'><br><br>
+<label>Cast</label>
+<select name="c">
+<option>General</option>
+<option>OBC</option>
+<option>SC/ST</option>
+</select><br><br>
+
+<label>City</label>
+
+<select name="ci">
+<option>Mumbai</option>
+<option>Pune</option>
+<option>Kolhapur</option>
+<option>Nagpur</option>
+<option>Nashik</option>
+</select><br><br>
+ 
+<label>State</label>
+<input type="text" placeholder="State" name="s" id='s'><br><br>
+ 
+<label>Adharcard Number</label>
+<input type="number" placeholder="AdharCard Number" name="a" id='a'><br><br>
+<label>Education</label><br><br>
+<label>10th Marks</label>
+<input type="number" placeholder="Marks" name="m" id='m'><br><br>
+<label>Achievements</label>
+<input type="text" placeholder="Achievements" name="ac" id='ac'><br><br>
+
+<label>Colleges</label> 
+
+<select name="co">
+<option>Ruparel College(Matunga Road)</option>
+<option>Ruia College(Matunga Road)</option>
+<option>Rizvi College(Bandra)</option>
+<option>Thakur College(Kandivali)</option>
+<option>D.Y.Patil College(Pune)</option>
+</select><br><br>
+<!-- <label>applicationstatus</label>
+<input type="text" placeholder="applicationstatus" name="as"><br><br> -->
+<label>applicationtype</label>
+<input type="text" placeholder=" applicationtype" name="at"><br><br>
+<input type="submit" value="sumbit">
+</form>
+<script type="text/javascript" src="js/Addmission.js"></script>
+</body>
+</html>
